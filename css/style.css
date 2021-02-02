@@ -240,7 +240,6 @@ text-align: center;
 @media (max-width: 575px) {
   .top-header-section {
     display: inline-grid;
-    grid-template: "item-logo item-btn"
     grid-gap: 1rem;
   }
 .main-sections {
