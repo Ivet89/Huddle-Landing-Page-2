@@ -240,7 +240,7 @@ text-align: center;
 @media (max-width: 575px) {
   .top-header-section {
     display: inline-grid;
-    grid-gap: 1rem;
+    grid-gap: 2rem;
   }
 .main-sections {
   margin: 1rem 0;
