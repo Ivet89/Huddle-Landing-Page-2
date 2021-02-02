@@ -221,7 +221,7 @@ header, footer, .contact-info, .social-icons, .copy-right, li {
 text-align: center;
 }
 .white-btn {
-  padding: 2px 60px;
+  padding: 20px 60px;
 }
 .item-section {
   max-width: 90%;
@@ -238,6 +238,9 @@ text-align: center;
 }
 }
 @media (max-width: 575px) {
+  .top-header-section {
+    display: inline-grid;
+  }
 .main-sections {
   margin: 1rem 0;
 }
