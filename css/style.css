@@ -205,7 +205,7 @@ li {
 }
 @media (max-width: 1200px) {
   .container-fluid, main, footer  {
-    padding: 1rem;
+    padding: 2rem 1rem;
   }
 .item-section {
   max-width: 70%;
@@ -221,7 +221,7 @@ header, footer, .contact-info, .social-icons, .copy-right, li {
 text-align: center;
 }
 .white-btn {
-  padding: 20px 60px;
+  padding: 10px 50px;
 }
 .item-section {
   max-width: 90%;
@@ -240,6 +240,8 @@ text-align: center;
 @media (max-width: 575px) {
   .top-header-section {
     display: inline-grid;
+    grid-template: "item-logo item-btn"
+    grid-gap: 1rem;
   }
 .main-sections {
   margin: 1rem 0;
@@ -266,3 +268,4 @@ text-align: center;
     margin: 2rem 0;
   }
 }
+
